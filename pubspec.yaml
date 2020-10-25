@@ -1,0 +1,46 @@
+name: mytransbb
+description: BPPRD Kabupaten Batu Bara.
+# description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^8.5.0
+  splashscreen: ^1.2.0
+
+  grouped_buttons: ^1.0.4
+  
+    
+  cupertino_icons: ^1.0.0
+  http : ^0.12.0
+  fluttertoast :
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.8.0"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/images/
+  - assets/images/pay/
+  - assets/images/feature/
+
+  fonts:
+    - family: Sanomat Grab Web
+      fonts:
+        - asset: assets/fonts/sanomat-grab-web.ttf
+
